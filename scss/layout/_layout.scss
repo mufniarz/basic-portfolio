@@ -1,0 +1,12 @@
+body {
+	font-family: 'Lora', serif;
+}
+
+section.container-fluid > div {
+    color: $blue;
+    background-color: $light-blue;
+	border: 3px solid $mid-blue;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-opacity: .7;
+}

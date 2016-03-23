@@ -1,0 +1,65 @@
+.text-edit {
+    float: right; 
+    margin-top: 12px;
+}
+.account {
+    text-align:right;
+}
+.account > div, 
+.account > ul {
+    text-align: left;
+}
+.content {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.featuredpic img {
+  width:510px;
+}
+
+.contact-info {
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-style: italic;
+	& a {
+		color: $dark-orange;
+	}
+	& .name {
+		font-size: 1.4em;
+		font-weight: 400;
+		display: block; 
+		width: 100%;
+	}
+	& .title {
+		display: block;
+		font-style: normal;
+		font-weight: 700;
+		width: 100%;
+	}
+	& .year {
+		float: right;
+	}
+}
+
+.portfolio-section {
+	padding: 10px 0px;
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	font-size: 1em;
+	font-style: italic;
+	& > .header {
+		font-size: 1.4em;
+		font-weight: 400;
+		font-style: normal;
+	}
+	&.row {
+		background-color: $mid-blue;
+	}
+}
+/*.ng-invalid.ng-dirty{*/
+    /*border-color:#FA787E;*/
+/*}*/
+/*.ng-valid.ng-dirty{*/
+    /*border-color:#78FA89;*/
+/*}*/

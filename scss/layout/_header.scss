@@ -1,0 +1,12 @@
+.page-header {
+    padding-bottom: 0 !important;
+    margin: 0 !important;
+    border-bottom: 0 !important;
+}
+.page-header .navbar-nav {
+    float: right;
+}
+.page-header > div > div, 
+.page-header > div > ul {
+    display: inline-block;
+}

@@ -1,0 +1,18 @@
+.navbar .nav > li > a.brand {
+    padding-left: 20px;
+    margin-left: 0;
+}
+.navbar-inverse {
+    background-color: $dark-blue;
+    border-color: $light-blue;
+	& .navbar-collapse, 
+	& .navbar-form {
+	    border-color: $light-blue;
+	}
+	& .navbar-brand {
+	    color: $light-orange;
+	}
+	& .navbar-nav > li > a {
+	    color: $mid-orange;
+	}
+}
