@@ -24,6 +24,9 @@ app.use(express.static(__dirname + '/views'));
 app.use(express.static(__dirname + '/assets'));
 //Store all JS and CSS in Scripts folder.
 
+app.use(express.static(__dirname + '/projects'));
+//Store all Projects in projects folder.
+
 app.get('/', function(req, res) {
   res.sendFile('index.html');
 });
