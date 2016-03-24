@@ -5895,13 +5895,19 @@ footer {
 body {
   font-family: 'Lora', serif; }
 
-section.container-fluid > div {
+section > div {
   color: #0d317f;
-  background-color: #5576bb;
+  background-color: #fff;
   border: 3px solid #355aa9;
   border-radius: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
-  background-opacity: .7; }
+  opacity: .9; }
+  section > div .header {
+    color: #082563;
+    font-size: 2em; }
+  section > div span {
+    color: #5576bb; }
 
 .navbar .nav > li > a.brand {
   padding-left: 20px;
@@ -5918,12 +5924,15 @@ section.container-fluid > div {
     color: #fd913b; }
 
 .wrap {
-  height: 1000px;
+  height: 1200px;
   width: 100%;
   position: relative;
   overflow: hidden;
   background: #120103;
   text-align: center; }
+  @media (max-width: 400px) {
+    .wrap {
+      height: 1600px; } }
 
 header {
   background: #082563;
@@ -5962,7 +5971,8 @@ header {
   background-color: #120103;
   background-position: 50% 50%;
   background-size: cover;
-  transition: left 0s .75s; }
+  transition: left 0s .75s;
+  background-attachment: fixed; }
   .slide-one {
     background-image: url("/img/awesome-fire-heart.jpg"); }
   .slide-two {
@@ -6004,6 +6014,9 @@ h1 {
   line-height: 1.2;
   margin: 0.5em 0 1em;
   text-shadow: 1px 1px 1px #333; }
+  @media (max-width: 550px) {
+    h1 {
+      margin: 3.5em 0 1em; } }
   @media (min-width: 1075px) {
     h1 {
       font-size: 4em; } }

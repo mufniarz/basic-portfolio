@@ -2,11 +2,20 @@ body {
 	font-family: 'Lora', serif;
 }
 
-section.container-fluid > div {
+section > div {
     color: $blue;
-    background-color: $light-blue;
+    background-color: #fff;
 	border: 3px solid $mid-blue;
 	border-radius: 5px;
+	margin-top: 10px;
 	margin-bottom: 10px;
-	background-opacity: .7;
+	opacity: .9;
+	& .header {
+    	color: $dark-blue;
+		font-size: 2em;
+	}
+	& span {
+		color: $light-blue;
+	}
 }
+

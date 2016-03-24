@@ -1,10 +1,15 @@
 .wrap {
-	height: 1000px;
+	height: 1200px;
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 	background: #120103;
 	text-align: center;
+
+	@media (max-width: 400px) {
+	  height: 1600px; 
+	}
+	
 }
 
 header {
@@ -51,7 +56,7 @@ header {
 	background-position: 50% 50%;
 	background-size: cover;
 	transition: left 0s .75s;
-
+	background-attachment:fixed;
 	&-one { 
 		background-image: url('/img/awesome-fire-heart.jpg'); 
 	}
@@ -106,6 +111,10 @@ h1 {
   line-height: 1.2;
   margin: 0.5em 0 1em;
   text-shadow: 1px 1px 1px #333;
+
+	@media (max-width: 550px) {
+	  margin: 3.5em 0 1em;
+	}
 
 	@media (min-width: 1075px) {
 	  font-size: 4em; 
