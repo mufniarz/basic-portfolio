@@ -1,7 +1,15 @@
+# Portfolio Project
+Description: This portfolio is based on a slider.  It uses HTML5 and CSS transitions for this affect.  It is composed of four slides.  Introduction, Technologies, Experience and Portfolio. More slides can be easily added.  
 
+## Technologies
+HTML5, CSS, Bootstrap, Node.js, Express.js and Google App Engine.
 
-This sample demonstrates a tiny Portfolio Node.js app for [Google App Engine Managed VMs](https://cloud.google.com/appengine).
+Optional: Ruby, Gem, Sass, Bourbon, Nodemon
 
-## Running locally
+## Running Locally
+`node app.js`
+`nodemon app.js`
 
-Refer to the [appengine/README.md](../README.md) file for instructions on running and deploying.
+## Deploy to Google App Engine
+
+`gcloud preview app deploy --project <PROJECT ID>`
