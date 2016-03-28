@@ -4,6 +4,12 @@
 		<title>Marcin M. Ufniarz's Portfolio Site</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/css/style.css" />
+		<style type="text/css">
+			div.scroll {
+			    max-height:900px;
+  				overflow: auto;
+			}
+		</style>
 	</head>
 	<body>
 
@@ -31,7 +37,7 @@
 	      <section class="slide slide-one">
 	        <h1>Marcin M. Ufniarz</h1>
 	        <img src="/img/marcin.png" alt="Marcin Ufniarz" class="img-thumbnail">
-	        <div class="container">
+	        <div class="container scroll">
 		        <div class="row">
 		        	<div class="col-sm-12 header">About Myself</div>
 		        	<div class="col-sm-12 row text-left">
@@ -42,7 +48,7 @@
 			        		<blockquote class="blockquote-reverse">
 			        			"There are three levels of understanding.  Learning, Doing and Teaching." - <a href="https://www.linkedin.com/in/sociallytim" target="_new">Tim Watson</a>
 							</blockquote>
-			        		I tend to try to teach and mentor where I can. 
+			        		I tend to teach and mentor where I can. 
 			        		<br /><br />
 		        		</div>
 		        		<div class="col-sm-6">
@@ -57,10 +63,10 @@
 		        	</div>
 		        	<div class="col-sm-12 header text-center">Professional Goals</div>
 		        	<div class="col-sm-12"><br />
-		        		I'm currently seeking employment as a front-end or back-end developer for a company that implements server-side JavaScript technologies.
+		        		I'm currently seeking employment as a front-end and/or back-end developer for a company that implements server-side JavaScript technologies.
 		        		<br /><br /> 
 		        	</div>
-	  		<div class="clearfix"></div>
+	  				<div class="clearfix"></div>
 		        </div>
 	        </div>
 	      </section>
@@ -70,7 +76,7 @@
 	      <input id="slide-2-trigger" type="radio" name="slides" />
 	      <section class="slide slide-two">
 	        <h1>Technologies</h1>
-	        <div class="container">
+	        <div class="container scroll">
 		        <div class="row">
 		        	<div class="col-sm-6">
 			        	<div class="header">Programming Languages</div>
@@ -89,6 +95,7 @@
 			        		<br />
 			        		<u>HTML</u> - 3+ years of experience.<br />
 			        		<u>CSS</u> - 3+ years of experience.<br />
+			        		<u>JSP</u> - 2.5 years of experience.<br />
 			        		<u>SVG</u> - Few months of experience.<br />
 			        		<u>Sass</u> - Few months of experience.<br />
 			        		<u>jQuery</u> - 1.5 years of experience.<br />
@@ -110,12 +117,55 @@
 			        	<div class="header">Databases</div>
 			        	<div class="text-left">
 			        		<br />
-			        		MySQL - 1 year of experience.<br />
-			        		MongoDB - Few months of experience.<br /><br />
+			        		<u>MySQL</u> - 1 year of experience.<br />
+			        		<u>MongoDB</u> - Few months of experience.<br /><br />
 			        		
 		        		</div>
 	        		</div>
-	        		<div class="clearfix"></div>
+	        		<div class="clearfix"><br /></div>
+		        	<div class="col-sm-6">
+			        	<div class="header">Other Technologies</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<u>HTTP</u> - 3+ years of experience.<br />
+			        		<u>vBulletin v4</u> - Some experience.
+			        		<br /><br />
+		        		</div>
+	        		</div>
+		        	<div class="col-sm-6">
+			        	<div class="header">Hosting Providers</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<u>GoDaddy</u> - 3+ years of experience.<br />
+			        		<u>Google App Engine</u> - 1.5 years of experience.<br />
+			        		<u>GitHub Pages</u> - 1 years of experience.<br />
+			        		<u>NearlyFreeSpeech.net</u> - few months of experience.<br />
+			        		<u>Heroku</u> - few months of experience.<br />
+			        		<u>Plesk</u> - 1 month of experience.
+			        		<br /><br />
+		        		</div>
+	        		</div>
+	        		<div class="clearfix"><br /></div>
+		        	<div class="col-sm-6">
+			        	<div class="header">Package Managers</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<u>npm</u> - .5 years of experience.<br />
+			        		<u>bower</u> - .5 years of experience.<br />
+			        		<u>gem</u> - few months of experience.
+			        		<br /><br />
+		        		</div>
+	        		</div>
+		        	<div class="col-sm-6">
+			        	<div class="header">Task Runners</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<u>Grunt</u> - 3+ years of experience.<br />
+			        		<u>Gulp</u> - 1.5 years of experience.
+			        		<br /><br />
+		        		</div>
+	        		</div>
+	        		<div class="clearfix"><br /></div>
 		        </div>
 	        </div>
 
@@ -126,7 +176,7 @@
 	      <input id="slide-3-trigger" type="radio" name="slides" />
 	      <section class="slide slide-three">
 	        <h1>Experience</h1>
-	        <div class="container">
+	        <div class="container scroll">
 		        <div class="row">
 		        	<div class="col-sm-6">
 			        	<div class="header">GetLusty.com</div>
@@ -145,7 +195,7 @@
 			        			<li>Documented all SQL functions.</li>
 			        		</ul>
 			        		<span>Technologies:</span> CSS, HTML, MSSQL, Windows OS
-			        		<br />
+			        		<br /><br />
 
 		        		</div>
 	        		</div>
@@ -173,11 +223,85 @@
 			        			<li>Built over a hundred sites working in small agile groups.</li>
 			        		</ul>
 			        		<span>Technologies:</span> HTML5, CSS, Bootstrap, JavaScript, jQuery, Java, SQL, JSP, Windows OS, Dreamweaver, Sublime Editor, Notepad++, Filezila, FireBug, Selenium
-			        		<br />
+			        		<br /><br />
 
 		        		</div>
 	        		</div>
 	        		<div class="clearfix"><br /></div>
+		        	<div class="col-sm-12 header" style="margin-bottom: 20px;">
+		        		<b>Freelance/Pro Bono Experience</b>
+		        	</div>
+	        		<div class="clearfix"><br /></div>
+		        	<div class="col-sm-6">
+			        	<div class="header">Our Lady Mother of the Church</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<span>Title:</span> Web Developer
+			        		<br />
+			        		<span>Duration:</span> 2015 - 2016
+			        		<br />
+			        		<span>Tasks:</span>
+			        		<br />
+			        		<ul>
+			        			<li>Rebuilt existing site with Bootstrap.</li>
+			        			<li>Added several sections and pages to the site.</li>
+			        			<li>Integrated Google Calendar.</li>
+			        			<li>Maintained Data in Google's Cloud Storage.</li>
+			        			<li>Eventually, helped transfer this site to GoDaddy and WordPress to allow for the church to use WordPress's CMS.</li>
+			        		</ul>
+			        		<span>Technologies:</span> CSS, HTML, Bootstrap, JavaScript (jQuery and Angular.js), Google's Data Store, Google App Engine, Go<br />
+			        		<span>Link:</span> <a href="https://olmc-web2.appspot.com/" target="_new">olmc-web2.appspot.com</a><br />
+			        		<br /><br />
+		        		</div>
+	        		</div>
+		        	<div class="col-sm-6">
+			        	<div class="header">Dirksen Library</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<span>Title:</span> Web Developer
+			        		<br />
+			        		<span>Duration:</span> 2015 - 2016
+			        		<br />
+			        		<span>Tasks:</span>
+			        		<br />
+			        		<ul>
+			        			<li>Rebuild existing web site.</li>
+			        			<li>Fix layout and link issues.</li>
+			        			<li>Provide hosting.</li>
+			        			<li>Maked the page more responsive/interactive.</li>
+			        		</ul>
+			        		<span>Technologies:</span> CSS, HTML, Ruby, Gem, Bourbon, SVG animation, responsive web design, Google App Engine<br />
+			        		<span>Link:</span> <a href="https://dirksen-library.appspot.com/" target="_new">dirksen-library.appspot.com</a>
+			        		<br /><br />
+
+		        		</div>
+	        		</div>
+	        		<div class="clearfix"><br /></div>
+		        	<div class="col-sm-6">
+			        	<div class="header">FeeGeek Chicago Panel</div>
+			        	<div class="text-left">
+			        		<br />
+			        		<span>Title:</span> Web Developer
+			        		<br />
+			        		<span>Team:</span> Marcin Ufniarz, Joseph Davis
+			        		<br />
+			        		<span>Duration:</span> 2015
+			        		<br />
+			        		<span>Tasks:</span>
+			        		<br />
+			        		<ul>
+			        			<li>Create custom panel for inhouse use.</li>
+			        			<li>Integrated Twitter API.</li>
+			        			<li>Integrated Google Calendar.</li>
+			        			<li>Intergrated Chicago's CTA Bus Tracking System.</li>
+			        		</ul>
+			        		<span>Technologies:</span> CSS, HTML, Bootstrap, JavaScript<br />
+			        		<span>Link:</span> <a href="https://sc3.github.io/freegeekchicagopanel/" target="_new">sc3.github.io/freegeekchicagopanel</a><br />
+			        		<br /><br />
+		        		</div>
+	        		</div>
+		        	<div class="col-sm-6">
+	        		</div>
 		        </div>
 		    </div>
 	      </section>
@@ -187,7 +311,7 @@
 	      <input id="slide-4-trigger" type="radio" name="slides" />
 	      <section class="slide slide-four">
 	        <h1>Portfolio</h1>
-	        <div class="container">
+	        <div class="container scroll">
 		        <div class="row">
 		        	<div class="col-sm-5">
 		        		<br />
@@ -211,8 +335,9 @@
 		        		</div>
 	        		</div>
 	        		<div class="clearfix"></div>
-		        	<div class="col-sm-5"><br />
-			        		<iframe height="300px" width="100%" src="https://dirksen-library.appspot.com/"></iframe>
+		        	<div class="col-sm-5">
+		        		<br />
+			        	<iframe height="300px" width="100%" src="https://dirksen-library.appspot.com/"></iframe>
 	        		</div>
 		        	<div class="col-sm-7">
 			        	<div class="text-left">
@@ -234,6 +359,11 @@
 	      </section>
 
 	    </div>
+	    <footer class="footer" style="z-index: 1000;">
+	      <div class="container text-center">
+	        <p class="text-muted">Creator: <a href="https://www.linkedin.com/in/marcin-ufniarz-bb374566" target="_new">Marcin M. Ufniarz</a> - <a href="https://github.com/mufniarz/basic-portfolio" target="_new">GitHub</a></p>
+	      </div>
+	    </footer>
 
 	</body>
 </html>
