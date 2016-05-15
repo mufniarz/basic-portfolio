@@ -1,17 +1,16 @@
 {
   "name": "marcin-ufniarz",
-  "description": "Marcin's Portfolio hosted on Google's Free App Engine.",
+  "description": "Marcin's Portfolio hosted on Heroku's Free App Engine.",
   "version": "0.0.1",
   "private": true,
   "license": "MIT",
   "author": "Marcin Ufniarz",
   "engines": {
-    "node": "~4.2"
+    "node": "latest"
   },
   "scripts": {
     "start": "node app.js",
-    "monitor": "nodemon app.js",
-    "deploy": "gcloud preview app deploy --project marcin-ufniarz"
+    "deploy": "git push heroku master"
   },
   "dependencies": {
     "express": "^4.13.4"
