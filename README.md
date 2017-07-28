@@ -22,4 +22,4 @@ or
 ## This was originally created to be hosted on Google App Engine. But I ended up getting charged an arm and a leg for it.  So HELLO HEROKU!!!! (Though I should mention I prefer heroku. They're development and deployment process is cake.  I never once thought, I need to contact customer service.) Much love heroku. ;)
 
 ## Finished Product
-marcin-ufniarz.herokapp.com
+marcin-ufniarz.herokuapp.com
